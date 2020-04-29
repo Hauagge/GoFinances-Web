@@ -27,7 +27,13 @@ export const Container = styled.div<ContainerProps>`
           margin-left: 32px;
         }
 
+        a.active {
+          border-bottom: 3px solid orange;
+        }
+
         &:hover {
+          border-bottom: 3px solid orange;
+
           opacity: 0.6;
         }
       }

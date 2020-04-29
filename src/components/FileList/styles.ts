@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import 'react-circular-progressbar/dist/styles.css';
 
 export const Container = styled.ul`
   margin-top: 20px;
